@@ -1,0 +1,7 @@
+[server]
+# This stops Streamlit from scanning your .venv/site-packages
+folderWatchBlacklist = [".venv", "node_modules"]
+
+[browser]
+# This prevents the noisy logs from popping up in the UI
+gatherUsageStats = false
